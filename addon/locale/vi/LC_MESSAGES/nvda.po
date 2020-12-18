@@ -1,0 +1,710 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'quickDictionary' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 'quickDictionary' '2.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2020-12-18 15:08+0700\n"
+"PO-Revision-Date: 2020-12-18 15:22+0700\n"
+"Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
+"Language-Team: Vietnamese <dangmanhcuong@gmail.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+
+#. Translators: the name of a submenu item (also used as method description).
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#. Translators: The title of the dialog to edit the text before sending it for translation
+#: addon\globalPlugins\quickDictionary\__init__.py:73
+#: addon\globalPlugins\quickDictionary\__init__.py:240
+#: addon\globalPlugins\quickDictionary\__init__.py:257
+msgid "edit text before sending"
+msgstr "sửa văn bản trước khi gửi"
+
+#. Translators: the name of a submenu item (also used as method description).
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#. Translators: The title of the online service selection dialog and menu item
+#: addon\globalPlugins\quickDictionary\__init__.py:76
+#: addon\globalPlugins\quickDictionary\__init__.py:549
+#: addon\globalPlugins\quickDictionary\__init__.py:562
+msgid "choose online service"
+msgstr "chọn dịch vụ trực tuyến"
+
+#. Translators: the name of a submenu item (also used as dialog title).
+#. Translators: The title of the dialog box with a list of voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\__init__.py:79
+#: addon\globalPlugins\quickDictionary\__init__.py:482
+msgid "Voice synthesizers profiles"
+msgstr ""
+
+#. Translators: the name of a submenu item
+#: addon\globalPlugins\quickDictionary\__init__.py:82
+msgid "&Options..."
+msgstr "&Tùy chọn..."
+
+#. Translators: the name of a submenu item (also used as dialog title).
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:85
+#: addon\globalPlugins\quickDictionary\__init__.py:370
+#: addon\globalPlugins\quickDictionary\__init__.py:425
+msgid "help on add-on commands"
+msgstr ""
+
+#. Translators: the name of a submenu item
+#: addon\globalPlugins\quickDictionary\__init__.py:94
+msgid "He&lp"
+msgstr "Trợ &giúp"
+
+#. Translators: Method description is displayed in the NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:202
+#, python-format
+msgid "then press %s for help"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:217
+#, python-format
+msgid ""
+"announce the dictionary entry for the currently selected word or phrase (the "
+"same as %s)"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:228
+msgid "show dictionary entry in a separate browseable window"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:261
+msgid "announce the current source and target languages"
+msgstr ""
+
+#. Translators: message presented to announce the current source and target languages.
+#: addon\globalPlugins\quickDictionary\__init__.py:269
+#, python-brace-format
+msgid "Translate: from {langFrom} to {langInto}"
+msgstr "Phiên dịch: từ {langFrom} sang {langInto}"
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:272
+msgid "swap languages and get Quick Dictionary translation"
+msgstr ""
+
+#. Translators: Notification that languages ​​have been swapped
+#: addon\globalPlugins\quickDictionary\__init__.py:282
+msgid "Languages swapped"
+msgstr ""
+
+#. Translators: Notification that reverse translation is not available for the current language pair
+#: addon\globalPlugins\quickDictionary\__init__.py:292
+msgid "Swap languages is not available for this pair"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:295
+msgid "copy last dictionary entry to the clipboard"
+msgstr ""
+
+#. Translators: Notification that no dictionary entries have been received in the current session
+#. Translators: Information about the online service
+#: addon\globalPlugins\quickDictionary\__init__.py:303
+#: addon\globalPlugins\quickDictionary\__init__.py:349
+msgid "There is no dictionary queries"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:311
+msgid ""
+"download from online dictionary and save the current list of available "
+"languages"
+msgstr ""
+
+#. Translators: Notification when downloading from the online dictionary list of available languages
+#: addon\globalPlugins\quickDictionary\__init__.py:325
+msgid ""
+"The list of available languages ​​has been successfully downloaded and saved."
+msgstr ""
+
+#. Translators: Notification when downloading from the online dictionary list of available languages
+#: addon\globalPlugins\quickDictionary\__init__.py:328
+msgid "Warning! The list of available languages could not be loaded."
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:332
+msgid "statistics on the using the online service"
+msgstr ""
+
+#. Translators: Information about the online service
+#: addon\globalPlugins\quickDictionary\__init__.py:343
+#, python-brace-format
+msgid "supports {number} languages"
+msgstr ""
+
+#. Translators: The name of the field displayed in the statistics and in the settings panel
+#. Translators: Field name in a dictionary entry
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\__init__.py:346
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:686
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:35
+msgid "&Dictionary:"
+msgstr "&Từ điển:"
+
+#. Translators: Information about the online service
+#: addon\globalPlugins\quickDictionary\__init__.py:352
+#, python-brace-format
+msgid "performed {count} requests"
+msgstr ""
+
+#. Translators: Information about the online service
+#: addon\globalPlugins\quickDictionary\__init__.py:355
+#, python-brace-format
+msgid "available {remain}"
+msgstr ""
+
+#. Translators: Information about the online service
+#: addon\globalPlugins\quickDictionary\__init__.py:363
+#, python-brace-format
+msgid "the limit will be reset in {hours} hours {minutes} minutes"
+msgstr ""
+
+#. Translators: Information about the cache state
+#: addon\globalPlugins\quickDictionary\__init__.py:367
+msgid "state of cache"
+msgstr ""
+
+#. Translators: Message in the add-on short help
+#: addon\globalPlugins\quickDictionary\__init__.py:385
+msgid "switch to add-on control mode"
+msgstr ""
+
+#. Translators: Message in the add-on short help
+#: addon\globalPlugins\quickDictionary\__init__.py:387
+#, python-format
+msgid "to get a quick translation of a word or phrase - press %s twice"
+msgstr ""
+
+#. Translators: Message in the add-on short help
+#: addon\globalPlugins\quickDictionary\__init__.py:390
+msgid "In add-on gestures layer mode:"
+msgstr ""
+
+#. Translators: Message in the add-on short help
+#: addon\globalPlugins\quickDictionary\__init__.py:405
+msgid "Voice synthesizers profiles management:"
+msgstr ""
+
+#. Translators: Message in the add-on short help
+#: addon\globalPlugins\quickDictionary\__init__.py:422
+msgid ""
+"for any of the listed features you can customize the keyboard shortcut in "
+"NVDA input gestures dialog"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:428
+msgid "open add-on settings dialog"
+msgstr "mở hộp thoại cài đặ tadd-on"
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:443
+#, python-brace-format
+msgid ""
+"From {startslot} to {endslot} - selection of the voice synthesizer profile"
+msgstr ""
+
+#. Translators: Message when selecting a voice synthesizer profile
+#: addon\globalPlugins\quickDictionary\__init__.py:453
+#, python-brace-format
+msgid "Profile {slot} selected: {title}"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:456
+msgid "announce the selected profile of voice synthesizers"
+msgstr ""
+
+#. Translators: Method description is displayed in the NVDA gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:465
+msgid "display a list of all customized voice synthesizers profiles"
+msgstr ""
+
+#. Translators: Method description is displayed in the NVDA gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:490
+#: addon\globalPlugins\quickDictionary\settings.py:530
+msgid "delete the selected voice synthesizer profile"
+msgstr ""
+
+#. Translators: Message when deleting a profile
+#. Translators: Message that displayed after deleting the profile (also this is the script description)
+#: addon\globalPlugins\quickDictionary\__init__.py:500
+#: addon\globalPlugins\quickDictionary\settings.py:530
+#, python-format
+msgid "Profile %d successfully deleted"
+msgstr ""
+
+#. Translators: Method description is displayed in the NVDA gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:503
+msgid "restore default voice synthesizer"
+msgstr ""
+
+#. Translators: Method description is displayed in the NVDA gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:514
+msgid "back to previous voice synthesizer"
+msgstr ""
+
+#. Translators: Method description is displayed in the NVDA gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:526
+msgid "save configured voice synthesizer profile"
+msgstr ""
+
+#. Translators: Announcing after saving synthesizer profile
+#. Translators: Display the message after saving the voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\__init__.py:535
+#: addon\globalPlugins\quickDictionary\settings.py:540
+msgid "Voice synthesizer profile saved successfully"
+msgstr ""
+
+#. Translators: Method description included in the add-on help message and NVDA input gestures dialog
+#: addon\globalPlugins\quickDictionary\__init__.py:538
+#, python-brace-format
+msgid "From F1 to F{endgate} - select online dictionary service"
+msgstr ""
+
+#. Translators: Notification of missing dictionary entry for current request
+#: addon\globalPlugins\quickDictionary\__init__.py:590
+msgid "No results"
+msgstr "Không có kết quả"
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:35
+msgid "Cebuano"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:37
+msgid "Esperanto"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:39
+msgid "Hmong"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:41
+msgid "Creole Haiti"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:43
+msgid "Javanese"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:45
+msgid "Latin"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:47
+msgid "Malagasy"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:49
+msgid "Meadow Mari"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:51
+msgid "Hill Mari"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:53
+msgid "Myanmar (Burmese)"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:55
+msgid "Chichewa"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:57
+msgid "Somali"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:59
+msgid "Sesotho"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:61
+msgid "Sundanese"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:63
+msgid "Tagalog"
+msgstr ""
+
+#. Translators: The name of the language, which may not be in the main list
+#: addon\globalPlugins\quickDictionary\service.py:65
+msgid "Yiddish"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\settings.py:42
+msgid "Select &online service:"
+msgstr "Chọn &dịch vụ trực tuyến"
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\settings.py:106
+msgid "Switch between &voice synthesizers for selected languages"
+msgstr ""
+
+#. Translators: A warning in addon settings dialog.
+#. Translators: The message that is displayed when the configured synthesizers profiles are missing
+#: addon\globalPlugins\quickDictionary\settings.py:132
+#: addon\globalPlugins\quickDictionary\settings.py:439
+msgid "Please set up voice synthesizers profiles."
+msgstr ""
+
+#. Translators: Label in the online service selection dialog
+#: addon\globalPlugins\quickDictionary\settings.py:240
+msgid "Select an online service from the list"
+msgstr ""
+
+#. Translators: The label for a column in the list of online services
+#: addon\globalPlugins\quickDictionary\settings.py:247
+msgid "ID"
+msgstr "ID"
+
+#. Translators: The label for a column in the list of online services
+#: addon\globalPlugins\quickDictionary\settings.py:249
+msgid "Online service"
+msgstr "Dịch vụ trực tuyến"
+
+#. Translators: The label for a column in the list of online services
+#: addon\globalPlugins\quickDictionary\settings.py:251
+msgid "Supported languages"
+msgstr "Hỗ trợ các ngôn ngữ"
+
+#. Translators: The title of the modal dialog box
+#: addon\globalPlugins\quickDictionary\settings.py:308
+msgid "Changing the profile of the voice synthesizer"
+msgstr ""
+
+#. Translators: The message is displayed in the voice synthesizer profile change dialog
+#: addon\globalPlugins\quickDictionary\settings.py:313
+#, python-format
+msgid "Do you want to save changes in profile %d?"
+msgstr ""
+
+#. Translators: The title of the modal dialog box
+#: addon\globalPlugins\quickDictionary\settings.py:363
+msgid "Create a new voice synthesizer profile"
+msgstr ""
+
+#. Translators: The message is displayed in the voice synthesizer profile create dialog
+#: addon\globalPlugins\quickDictionary\settings.py:368
+msgid "Please select the &number for new profile:"
+msgstr ""
+
+#. Translators: The label in dialog with the list of voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\settings.py:425
+msgid "Select a voice synthesizer &profile from the list"
+msgstr ""
+
+#. Translators: The label for a column in the list of voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\settings.py:432
+msgid "Slot"
+msgstr ""
+
+#. Translators: The label for a column in the list of voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\settings.py:434
+msgid "Voice synthesizer"
+msgstr ""
+
+#. Translators: The label for a column in the list of voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\settings.py:436
+msgid "Associated language"
+msgstr ""
+
+#. Translators: Label of the button that activates the selected voice synthesizer profile
+#: addon\globalPlugins\quickDictionary\settings.py:446
+msgid "&Activate"
+msgstr "&Kích hoạt"
+
+#. Translators: Label of the button that opens the dialog for changing the selected profile
+#: addon\globalPlugins\quickDictionary\settings.py:451
+msgid "&Change"
+msgstr "&Thay đổi"
+
+#: addon\globalPlugins\quickDictionary\settings.py:540
+msgid "Profiles list could not be saved"
+msgstr ""
+
+#. Translators: The title of the messageBox that appears after saving the list of voice synthesizers profiles
+#: addon\globalPlugins\quickDictionary\settings.py:542
+msgid "Saving voice synthesizers profiles list"
+msgstr ""
+
+#. Translators: Message if the text was successfully copied to the clipboard
+#: addon\globalPlugins\quickDictionary\shared.py:94
+msgid "Copied to clipboard."
+msgstr ""
+
+#. Translators: Message if the text could not be copied to the clipboard
+#: addon\globalPlugins\quickDictionary\shared.py:97
+msgid "Copy failed."
+msgstr ""
+
+#. Translators: user has pressed the shortcut key for translating selected text, but no text was actually selected and clipboard is clear
+#: addon\globalPlugins\quickDictionary\shared.py:121
+msgid ""
+"There is no selected text, the clipboard is also empty, or its content is "
+"not text!"
+msgstr ""
+
+#. Translators: The name of the online dictionary service
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:25
+msgid "Lexicala Dictionaries"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:189
+#: addon\globalPlugins\quickDictionary\yandex\dictionary.py:119
+msgid "mean"
+msgstr "nghĩa"
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:207
+msgid "compositional phrases"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:242
+#: addon\globalPlugins\quickDictionary\yandex\dictionary.py:123
+msgid "examples"
+msgstr "ví dụ"
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:276
+msgid "inflections"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:313
+msgid "pronunciation"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:487
+msgid "subcategorization"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:498
+msgid "case"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:509
+msgid "register"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:520
+msgid "geographical usage"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:531
+msgid "mood"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:542
+msgid "tense"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:553
+msgid "homograph number"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:576
+msgid "semantic category"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:587
+msgid "semantic subcategory"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:598
+msgid "range of application"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:609
+msgid "sentiment"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:620
+msgid "see"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:631
+msgid "see also"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:642
+#: addon\globalPlugins\quickDictionary\yandex\dictionary.py:121
+msgid "synonyms"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:653
+msgid "antonyms"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:664
+msgid "collocate"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\lexicala\dictionary.py:675
+msgid "aspect"
+msgstr ""
+
+#. Translators: Help message for a dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:45
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:35
+msgid "Select dictionary source and target language:"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:51
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:41
+msgid "&Source language:"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:58
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:48
+msgid "&Target language:"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:72
+msgid "Search in both headwords and &inflections"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:76
+msgid "St&rip words to their stem"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:80
+msgid "Show a&ll available translations"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:84
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:62
+msgid "Copy dictionary response to clip&board"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:88
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:66
+msgid "Auto-s&wap languages"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:97
+msgid "&Username:"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:104
+msgid "&Password:"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\lexicala\settings.py:112
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:96
+msgid "Register your own access token"
+msgstr ""
+
+#. Translators: The name of the online dictionary service
+#: addon\globalPlugins\quickDictionary\yandex\dictionary.py:24
+msgid "Yandex Dictionaries"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\yandex\dictionary.py:96
+msgid "number"
+msgstr ""
+
+#. Translators: Field name in a dictionary entry
+#: addon\globalPlugins\quickDictionary\yandex\dictionary.py:98
+msgid "gender"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:70
+msgid "Use &alternative server"
+msgstr ""
+
+#. Translators: A setting in addon settings dialog.
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:78
+msgid "&Dictionary Access Token:"
+msgstr ""
+
+#. Translators: Button label that show or hide password
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:88
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:145
+msgid "Show"
+msgstr "Hiện"
+
+#. Translators: This displayed by default in the language selection choice list
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:110
+msgid "-- select language --"
+msgstr "-- chọn ngôn ngữ --"
+
+#. Translators: Button label that show or hide password
+#: addon\globalPlugins\quickDictionary\yandex\settings.py:138
+msgid "Hide"
+msgstr "Ẩn"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:18
+msgid "Quick Dictionary"
+msgstr "Từ điển tra nhanh"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:21
+msgid ""
+"Online Dictionary add-on for quick translation selected words or phrases."
+msgstr ""
