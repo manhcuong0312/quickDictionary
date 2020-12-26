@@ -4,6 +4,7 @@
 * Phiên bản: 2.1
 * Tải về [phiên bản chính thức][1]
 * Tải về [phiên bản thử nghiệm][2]
+* NVDA tương thích: 2019.3 trở lên
 
 Welcome to NVDA Quick Dictionary addon, which will allow you to quickly get a dictionary article with the translation of a word or phrase into your chosen language by pressing a key combination. There are few basic keyboard shortcuts and they are all intuitive and convenient so you will remember them quickly.  
 Dictionary articles contain detailed information about a word, such as part of speech, gender, plural or singular, translation options, list of meanings, synonyms and detailed examples. Such information will be useful for people who are learning foreign languages, or seek to use in communication all the richness and diversity of their own language.  
