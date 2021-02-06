@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 'quickDictionary' '2.1'\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2020-12-18 15:08+0700\n"
-"PO-Revision-Date: 2021-02-03 15:03+0700\n"
+"PO-Revision-Date: 2021-02-06 15:35+0700\n"
 "Last-Translator: Dang Manh Cuong <dangmanhcuong@gmail.com>\n"
 "Language-Team: Vietnamese <dangmanhcuong@gmail.com>\n"
 "Language: vi\n"
@@ -56,7 +56,7 @@ msgstr "rồi bấm %s để được trợ giúp"
 msgid ""
 "announce the dictionary entry for the currently selected word or phrase (the "
 "same as %s)"
-msgstr ""
+msgstr "đọc nghĩa cho từ hay cụm từ đang được chọn (giống như %s)"
 
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid "show dictionary entry in a separate browseable window"
@@ -72,7 +72,7 @@ msgstr "Phiên dịch: từ {langFrom} sang {langInto}"
 
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid "swap languages and get Quick Dictionary translation"
-msgstr ""
+msgstr "đảo ngôn ngữ và dịch nhanh"
 
 #. Translators: Notification that languages ​​have been swapped
 msgid "Languages swapped"
@@ -84,18 +84,18 @@ msgstr "Không đảo được cặp ngôn ngữ này"
 
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid "copy last dictionary entry to the clipboard"
-msgstr ""
+msgstr "chép định nghĩa sau cùng vào bộ nhớ tạm"
 
 #. Translators: Notification that no dictionary entries have been received in the current session
 #. Translators: Information about the online service
 msgid "There is no dictionary queries"
-msgstr ""
+msgstr "Không có truy vấn nào cho từ điển"
 
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid ""
 "download from online dictionary and save the current list of available "
 "languages"
-msgstr ""
+msgstr "tải về từ điển trực tuyến và lưu danh sách ngôn ngữ hiện có"
 
 #. Translators: Notification when downloading from the online dictionary list of available languages
 msgid ""
@@ -109,7 +109,7 @@ msgstr "Cảnh báo! Không thể tải danh sách các ngôn ngữ có sẵn."
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 #: addon\globalPlugins\quickDictionary\__init__.py:332
 msgid "statistics on the using the online service"
-msgstr ""
+msgstr "thống kê về việc sử dụng dịch vụ trực tuyến"
 
 #. Translators: Information about the online service
 msgid "supports {number} languages"
@@ -131,11 +131,11 @@ msgstr "còn lại {remain}"
 
 #. Translators: Information about the online service
 msgid "the limit will be reset in {hours} hours {minutes} minutes"
-msgstr ""
+msgstr "giới hạn sẽ được đặt lại là {hours} giờ {minutes} phút"
 
 #. Translators: Information about the cache state
 msgid "state of cache"
-msgstr ""
+msgstr "trạng thái bộ nhớ đệm"
 
 #. Translators: Message in the add-on short help
 msgid "switch to add-on control mode"
@@ -143,21 +143,23 @@ msgstr "chuyển sang chế độ điều khiển add-on"
 
 #. Translators: Message in the add-on short help
 msgid "to get a quick translation of a word or phrase - press %s twice"
-msgstr ""
+msgstr "để tra nhanh một từ hay cụm từ - bấm %s hai lần"
 
 #. Translators: Message in the add-on short help
 msgid "In add-on gestures layer mode:"
-msgstr ""
+msgstr "Trong chế độ lớp thao tác của add-on:"
 
 #. Translators: Message in the add-on short help
 msgid "Voice synthesizers profiles management:"
-msgstr ""
+msgstr "Quản lý hồ sơ giọng đọc:"
 
 #. Translators: Message in the add-on short help
 msgid ""
 "for any of the listed features you can customize the keyboard shortcut in "
 "NVDA input gestures dialog"
 msgstr ""
+"với các tính năng đã liệt kê, bạn có thể thay đổi phím lệnh trong hộp thoại "
+"Quản lý các thao tác của NVDA"
 
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid "open add-on settings dialog"
@@ -166,7 +168,7 @@ msgstr "mở hộp thoại cài đặ tadd-on"
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid ""
 "From {startslot} to {endslot} - selection of the voice synthesizer profile"
-msgstr ""
+msgstr "Từ {startslot} đến {endslot} - chọn hồ sơ giọng đọc"
 
 #. Translators: Message when selecting a voice synthesizer profile
 msgid "Profile {slot} selected: {title}"
@@ -174,7 +176,7 @@ msgstr "Hồ sơ {slot} đã chọn: {title}"
 
 #. Translators: Method description included in the add-on help message and NVDA input gestures dialog
 msgid "announce the selected profile of voice synthesizers"
-msgstr ""
+msgstr "thông báo hồ sơ giọng đọc được chọn"
 
 #. Translators: Method description is displayed in the NVDA gestures dialog
 msgid "display a list of all customized voice synthesizers profiles"
@@ -325,7 +327,7 @@ msgstr "Vui lòng chọn &số cho hồ sơ mới:"
 
 #. Translators: The label in dialog with the list of voice synthesizers profiles
 msgid "Select a voice synthesizer &profile from the list"
-msgstr ""
+msgstr "Chọn bộ đọc và hồ sơ từ danh sách"
 
 #. Translators: The label for a column in the list of voice synthesizers profiles
 msgid "Slot"
@@ -348,11 +350,11 @@ msgid "&Change"
 msgstr "&Thay đổi"
 
 msgid "Profiles list could not be saved"
-msgstr ""
+msgstr "Không thể lưu danh sách hồ sơ"
 
 #. Translators: The title of the messageBox that appears after saving the list of voice synthesizers profiles
 msgid "Saving voice synthesizers profiles list"
-msgstr ""
+msgstr "Đang lưu danh sách hồ sơ giọng đọc"
 
 #. Translators: Message if the text was successfully copied to the clipboard
 msgid "Copied to clipboard."
@@ -367,6 +369,8 @@ msgid ""
 "There is no selected text, the clipboard is also empty, or its content is "
 "not text!"
 msgstr ""
+"Không có văn bản nào được chọn, bộ nhớ tạm rỗng hoặc nội dung trong đó không "
+"phải là văn bản!"
 
 #. Translators: The name of the online dictionary service
 msgid "Lexicala Dictionaries"
@@ -378,7 +382,7 @@ msgstr "nghĩa"
 
 #. Translators: Field name in a dictionary entry
 msgid "compositional phrases"
-msgstr ""
+msgstr "cụm từ thành phần"
 
 #. Translators: Field name in a dictionary entry
 msgid "examples"
@@ -386,7 +390,7 @@ msgstr "ví dụ"
 
 #. Translators: Field name in a dictionary entry
 msgid "inflections"
-msgstr ""
+msgstr "biến đổi"
 
 #. Translators: Field name in a dictionary entry
 msgid "pronunciation"
@@ -394,7 +398,7 @@ msgstr "phát âm"
 
 #. Translators: Field name in a dictionary entry
 msgid "subcategorization"
-msgstr ""
+msgstr "phân loại con"
 
 #. Translators: Field name in a dictionary entry
 msgid "case"
@@ -406,7 +410,7 @@ msgstr "đăng kí"
 
 #. Translators: Field name in a dictionary entry
 msgid "geographical usage"
-msgstr ""
+msgstr "cách dùng địa phương"
 
 #. Translators: Field name in a dictionary entry
 msgid "mood"
@@ -418,23 +422,23 @@ msgstr "thì"
 
 #. Translators: Field name in a dictionary entry
 msgid "homograph number"
-msgstr ""
+msgstr "số đồng nhất"
 
 #. Translators: Field name in a dictionary entry
 msgid "semantic category"
-msgstr ""
+msgstr "phân loại ngữ nghĩa"
 
 #. Translators: Field name in a dictionary entry
 msgid "semantic subcategory"
-msgstr ""
+msgstr "phân loại ngữ nghĩa phụ"
 
 #. Translators: Field name in a dictionary entry
 msgid "range of application"
-msgstr ""
+msgstr "vùng ứng dụng"
 
 #. Translators: Field name in a dictionary entry
 msgid "sentiment"
-msgstr ""
+msgstr "biểu cảm"
 
 #. Translators: Field name in a dictionary entry
 msgid "see"
@@ -446,19 +450,19 @@ msgstr "xem thêm"
 
 #. Translators: Field name in a dictionary entry
 msgid "synonyms"
-msgstr ""
+msgstr "đồng nghĩa"
 
 #. Translators: Field name in a dictionary entry
 msgid "antonyms"
-msgstr ""
+msgstr "trái nghĩa"
 
 #. Translators: Field name in a dictionary entry
 msgid "collocate"
-msgstr ""
+msgstr "hình thái"
 
 #. Translators: Field name in a dictionary entry
 msgid "aspect"
-msgstr ""
+msgstr "khía cạnh"
 
 #. Translators: Help message for a dialog.
 #: addon\globalPlugins\quickDictionary\yandex\settings.py:35
@@ -475,11 +479,11 @@ msgstr "Ngôn ngữ &đích:"
 
 #. Translators: A setting in addon settings dialog.
 msgid "Search in both headwords and &inflections"
-msgstr ""
+msgstr "Tìm kiếm trong cả từ tiêu đề và &nội dung"
 
 #. Translators: A setting in addon settings dialog.
 msgid "St&rip words to their stem"
-msgstr ""
+msgstr "Dọ&c các từ vào gốc của chúng"
 
 #. Translators: A setting in addon settings dialog.
 msgid "Show a&ll available translations"
