@@ -6,10 +6,10 @@
 * Tải về [phiên bản thử nghiệm][2]
 * NVDA tương thích: 2019.3 trở lên
 
-Welcome to NVDA Quick Dictionary addon, which will allow you to quickly get a dictionary article with the translation of a word or phrase into your chosen language by pressing a key combination. There are few basic keyboard shortcuts and they are all intuitive and convenient so you will remember them quickly.  
-Dictionary articles contain detailed information about a word, such as part of speech, gender, plural or singular, translation options, list of meanings, synonyms and detailed examples. Such information will be useful for people who are learning foreign languages, or seek to use in communication all the richness and diversity of their own language.  
-The add-on supports several online dictionary services. You can select the desired remote dictionary in the appropriate dialog box or by using keyboard shortcuts. Each available service has its own settings panel.  
-There are also advanced opportunities for working with profiles of the voice synthesizers. You can associate a voice synthesizer profile with a specific language, after that translations into this language will be automatically voiced by the selected synthesizer.  
+Chào mừng đến với add-on  Từ Điển Tra Nhanh cho NVDA, cho phép bạn nhanh chóng tạo một bản phiên dịch từ điển  của một từ hay cụm từ ra ngôn ngữ được chọn bằng một phím lệnh. Có vài phím tắt cơ bản. Tất cả chúng đều trực quan và tiện lợi nên bạn sẽ ghi nhớ  chúng một cách nhanh chóng.  
+Các bản dịch từ điển chứa các thông tin chi tiết về một từ như một đoạn diễn văn, loại, số nhiều hay số ít, các tùy chọn phiên dịch, danh sách nghĩa, từ đồng nghĩa và ví dụ cụ thể. Các thông tin này sẽ hữu ích cho những ai đang học tiếng nước ngoài hoặc dùng để giao tiếp bằng sự đa dạng phong phú của  tiếng mẹ đẻ.  
+Add-on này hỗ trợ vài dịch vụ tra từ điển trực tuyến. Bạn có thể chọn loại từ điển mong muốn trong các hộp thoại thích hợp hoặc dùng phím lệnh. Mỗi dịch vụ sẽ có bản thiết lập riêng của nó.  
+Tính năng mở rộng hơn của nó là hoạt động với các hồ sơ giọng đọc. Bạn có thể gán một hồ sơ giọng đọc cho một ngôn ngữ nhất định. Sau đó, nội dung phiên dịch cho ngôn ngữ được chọn sẽ tự đọc bằng giọng đọc đã chọn.  
 Below are all the features of the add-on and keyboard shortcuts to control them. By default all functions are called using two-layer commands. But for any of these methods you can always assign convenient for you keyboard shortcuts. You can do it in the NVDA "Preferences" -> "Input gestures..." dialog.  
 
 ## Receiving a dictionary article
