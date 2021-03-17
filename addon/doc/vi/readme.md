@@ -6,11 +6,11 @@
 * Tải về [phiên bản thử nghiệm][2]
 * NVDA tương thích: 2019.3 trở lên
 
-Chào mừng đến với add-on  Từ Điển Tra Nhanh cho NVDA, cho phép bạn nhanh chóng tạo một bản phiên dịch từ điển  của một từ hay cụm từ ra ngôn ngữ được chọn bằng một phím lệnh. Có vài phím tắt cơ bản. Tất cả chúng đều trực quan và tiện lợi nên bạn sẽ ghi nhớ  chúng một cách nhanh chóng.  
+Chào mừng đến với add-on  Từ Điển Tra Nhanh của NVDA, cho phép bạn nhanh chóng tạo một bản phiên dịch từ điển  của một từ hay cụm từ ra ngôn ngữ được chọn bằng một phím lệnh. Có vài phím tắt cơ bản. Tất cả chúng đều trực quan và tiện lợi nên bạn sẽ ghi nhớ  chúng một cách nhanh chóng.  
 Các bản dịch từ điển chứa các thông tin chi tiết về một từ như một đoạn diễn văn, loại, số nhiều hay số ít, các tùy chọn phiên dịch, danh sách nghĩa, từ đồng nghĩa và ví dụ cụ thể. Các thông tin này sẽ hữu ích cho những ai đang học tiếng nước ngoài hoặc dùng để giao tiếp bằng sự đa dạng phong phú của  tiếng mẹ đẻ.  
 Add-on này hỗ trợ vài dịch vụ tra từ điển trực tuyến. Bạn có thể chọn loại từ điển mong muốn trong các hộp thoại thích hợp hoặc dùng phím lệnh. Mỗi dịch vụ sẽ có bản thiết lập riêng của nó.  
-Tính năng mở rộng hơn của nó là hoạt động với các hồ sơ giọng đọc. Bạn có thể gán một hồ sơ giọng đọc cho một ngôn ngữ nhất định. Sau đó, nội dung phiên dịch cho ngôn ngữ được chọn sẽ tự đọc bằng giọng đọc đã chọn.  
-Below are all the features of the add-on and keyboard shortcuts to control them. By default all functions are called using two-layer commands. But for any of these methods you can always assign convenient for you keyboard shortcuts. You can do it in the NVDA "Preferences" -> "Input gestures..." dialog.  
+Tính năng nâng cao hơn của nó là hoạt động với các hồ sơ giọng đọc. Bạn có thể gán một hồ sơ giọng đọc cho một ngôn ngữ nhất định. Sau đó, nội dung phiên dịch cho ngôn ngữ được chọn sẽ tự đọc bằng giọng đọc đã chọn.  
+Dưới đây là tất cả tính năng của add-on và phím tắt để điều khiển chúng. Mặc định, tất cả tính năng dđược gọi bằng hai lớp lệnh. Tuy nhiên, bạn có thể gán lại phím lệnh để tiện cho mình. Bạn có thể làm điều đó thông qua "tùy chọn" trong trình đơn NVDA -> hộp thoại "Quản lý thao tác...".  
 
 ## Receiving a dictionary article
 In order to get an article from the dictionary, you must first select the word you are interested in or copy it to the clipboard. Then just press NVDA+Y twice.
