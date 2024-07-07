@@ -4,7 +4,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 
 from typing import Callable, List, Dict
 import addonHandler
@@ -40,11 +40,11 @@ class ServiceTranslator(Translator):
 	"""Provides interaction with the online dictionary service."""
 
 	def __init__(
-			self,
-			langFrom: str,
-			langTo: str,
-			text: str,
-			*args, **kwargs
+		self,
+		langFrom: str,
+		langTo: str,
+		text: str,
+		*args, **kwargs
 	) -> None:
 		"""Initialization of the source and target language, as well as word or phrase to search in the dictionary.
 		@param langFrom: source language

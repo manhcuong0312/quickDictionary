@@ -3,7 +3,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 
 from typing import Callable, Iterator, Optional
 import addonHandler
@@ -27,9 +27,9 @@ class ServicePanel(wx.Panel):
 	"""The Settings Panel that specific to the current service."""
 
 	def __init__(
-			self,
-			parent: Optional[wx.Window] = None,
-			id: int = wx.ID_ANY
+		self,
+		parent: Optional[wx.Window] = None,
+		id: int = wx.ID_ANY
 	) -> None:
 		"""Create a settings panel for a specific service.
 		Populate the service panel with settings controls.

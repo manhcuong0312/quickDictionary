@@ -4,7 +4,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 
 from typing import Any, Dict
 import os.path
@@ -22,11 +22,11 @@ class Wapi(object):
 	"""Description of the Wiktionary Online Dictionary API."""
 
 	def __init__(
-			self,
-			text: str = '',
-			langFrom: str = '',
-			langTo: str = '',
-			uiLang: str = ''
+		self,
+		text: str = '',
+		langFrom: str = '',
+		langTo: str = '',
+		uiLang: str = ''
 	) -> None:
 		"""Input parameters for interacting with the online dictionary.
 		@param text: word or phrase to search in the dictionary

@@ -1,7 +1,7 @@
 # NVDA Quick Dictionary
 
 * Author: Oleksandr Gryshchenko
-* Version: 2.1
+* Version: 2.2
 * NVDA compatibility: 2019.3 and beyond
 * Download [stable version][1]
 
@@ -35,7 +35,7 @@ Basic dictionary commands:
 * U - download from online dictionary and save the current list of available languages;
 * function keys - select online dictionary service;
 * Q - statistics on the using the online service;
-* F - choose online service.  
+* F - choose online service.
 
 Voice synthesizers profiles management:
 
@@ -45,7 +45,7 @@ Voice synthesizers profiles management:
 * R - restore default voice synthesizer;
 * Del - delete the selected voice synthesizer profile;
 * V - save configured voice synthesizer profile;
-* P - display a list of all customized voice synthesizers profiles.  
+* P - display a list of all customized voice synthesizers profiles.
 
 Press O to open add-on settings dialog.
 
@@ -71,7 +71,12 @@ Several good solutions from other developments were used in the Quick Dictionary
 
 ## Change log
 
-### Version 2.1.2
+### Version 2.2
+* the add-on has been tested for compatibility with NVDA 2023.1;
+* fixed interaction with new API of the Lexicala service.
+
+### Version 2.1.5
+* the add-on has been tested for compatibility with NVDA 2022.1;
 * the source code is significantly optimized and added MyPy type hints;
 * the add-on is adapted to support Python versions 3.7 and 3.8;
 * fixed formatting errors in Markdown files;

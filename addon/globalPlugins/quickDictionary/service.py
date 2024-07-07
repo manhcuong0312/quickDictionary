@@ -10,7 +10,7 @@
 	A part of the NVDA Quick Dictionary add-on
 	This file is covered by the GNU General Public License.
 	See the file COPYING for more details.
-	Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+	Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 """
 
 from __future__ import annotations
@@ -265,11 +265,11 @@ class Translator(Thread):
 	"""Provides interaction with the online dictionary service."""
 
 	def __init__(
-			self,
-			langFrom: str,
-			langTo: str,
-			text: str,
-			*args, **kwargs
+		self,
+		langFrom: str,
+		langTo: str,
+		text: str,
+		*args, **kwargs
 	) -> None:
 		"""Initialization of the source and target languages,
 		as well as the word or phrase to search in the remote dictionary.
@@ -280,7 +280,7 @@ class Translator(Thread):
 		@param text: a word or phrase to look up in a dictionary
 		@type text: str
 		"""
-		super(Translator, self).__init__(*args, **kwargs)
+		super().__init__(*args, **kwargs)
 		self._langFrom = langFrom
 		self._langTo = langTo
 		self._text = text
@@ -520,9 +520,9 @@ class Secrets(object):
 	"""Manage the credentials required for all add-on services to work."""
 
 	def __init__(
-			self,
-			dir: str = os.path.dirname(__file__),
-			file: str = 'qd'
+		self,
+		dir: str = os.path.dirname(__file__),
+		file: str = 'qd'
 	) -> None:
 		"""Initialize all required values.
 		@param dir: the directory where the credential file is stored

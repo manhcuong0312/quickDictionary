@@ -1,8 +1,8 @@
-﻿# -*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 
 from typing import Optional, Callable, List
 import os.path
@@ -463,7 +463,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.script_dictionaryStatistics.__doc__,
 			self.script_showResponse.__doc__]:
 			lines.append("<li>%s</li>" % method)
-		lines += ["</ul>", "<br>",  # noqa ET113
+		lines += [
+			"</ul>", "<br>",  # noqa ET113
 			# Translators: Message in the add-on short help  # noqa ET128
 			"<h2>%s</h2>" % _("Voice synthesizers profiles management:"),
 			'<ul type="disc">']

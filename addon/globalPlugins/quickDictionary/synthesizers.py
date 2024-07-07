@@ -3,7 +3,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 # In the development of this module were used ideas from the Switch Synth add-on (thanks to Tyler Spivey)
 
 from __future__ import annotations
@@ -19,10 +19,11 @@ class Profile(object):
 	"""Represents the profile of the voice synthesizer."""
 
 	def __init__(
-			self,
-			synthName: str = '',
-			synthConf: Dict = {},
-			lang: str = '') -> None:
+		self,
+		synthName: str = '',
+		synthConf: Dict = {},
+		lang: str = ''
+	) -> None:
 		"""Input data needed to initialize the synthesizer profile.
 		@param synthName: short name of the voice synthesizer
 		@type synthName: str

@@ -3,7 +3,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 
 from typing import List, Dict, Iterator
 import os.path
@@ -123,8 +123,9 @@ class ServiceLanguages(Languages):
 		"""
 		return (source in [
 			lang.code for lang in self.fromList()
-			]) and (target in [
-		lang.code for lang in self.intoList()])
+		]) and (target in [
+			lang.code for lang in self.intoList()
+		])
 
 	@property
 	def defaultFrom(self) -> ServiceLanguage:

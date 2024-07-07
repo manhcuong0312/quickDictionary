@@ -3,7 +3,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 
 from typing import List, Dict, Iterator
 import os.path
@@ -92,8 +92,8 @@ class ServiceLanguages(Languages):
 		"""
 		return ServiceLanguage(
 			self.locale.code) if next(
-		filter(lambda l: l.code == self.locale.code, self.intoList(self.defaultFrom.code)),
-		None) else [l for l in self.intoList(self.defaultFrom.code)][0]
+				filter(lambda lng: lng.code == self.locale.code, self.intoList(self.defaultFrom.code)),
+				None) else [lng for lng in self.intoList(self.defaultFrom.code)][0]
 
 	@property
 	def all(self) -> List:

@@ -3,7 +3,7 @@
 # A part of the NVDA Quick Dictionary add-on
 # This file is covered by the GNU General Public License.
 # See the file COPYING for more details.
-# Copyright (C) 2020-2021 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
+# Copyright (C) 2020-2023 Olexandr Gryshchenko <grisov.nvaccess@mailnull.com>
 # In the development of this module were used ideas from the Service Locator module by Innolitics
 # https://github.com/innolitics/service-locator
 
@@ -147,7 +147,7 @@ class DictionaryService(object):
 		@return: specific Translator class used by the service
 		@rtype: <service_name>.dictionary.ServiceTranslator
 		"""
-		return getattr(self['.dictionary'], 'ServiceTranslator', object)
+		return getattr(self['.dictionary'], 'ServiceTranslator')
 
 	@property
 	def langs(self) -> Languages:
@@ -155,7 +155,7 @@ class DictionaryService(object):
 		@return: an instance of the service specific class to interact with the list of available languages
 		@rtyp: <service_name>.languages.ServiceLanguages
 		"""
-		return getattr(self['.languages'], 'langs', object)
+		return getattr(self['.languages'], 'langs')
 
 	@property
 	def panel(self) -> Panel:
